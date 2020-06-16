@@ -1,0 +1,23 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="game">
+        <% if (score > 30) { %>
+            <h1>Good Performance <%= Username %>.</h1>
+            <h2>Your score: <%= score %>/60</h2>
+            <% } else { %> 
+                <h1>Poor Performance <%= Username %>. Better luck next time!</h1>
+                <h2>Your score: <%= score %>/60</h2>
+            <% } %>
+            <form action="/play-again" method="POST">
+                <button type="submit" class="btn">Play-Again</button>
+            </form>
+            <form action="/finish" method="post">
+                <button type="submit" class="btn">finish</button>
+            </form>
+    </div>
+    
+
+</body>
+</html>

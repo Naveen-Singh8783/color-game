@@ -1,0 +1,159 @@
+.main{
+    margin: auto;
+    margin-top: 5rem;
+    width: 30%;
+    text-align: center;
+    padding: 4rem 4rem;
+    background-color: antiquewhite;
+}
+
+.game{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 0.50rem 2rem;
+    text-decoration: none;
+    font: inherit;
+    border: 1px solid #00695c;
+    color: #00695c;
+    background: white;
+    border-radius: 3px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+.btn-red{
+  color: red;
+}
+
+.btn-red:hover,
+.btn-red:active {
+  background-color: red;
+  color: white;
+}
+
+.btn-blue{
+  color:blue;
+}
+
+.btn-blue:hover,
+.btn-blue:active {
+  background-color: blue;
+  color: white;
+}
+
+
+.btn-pink{
+  color: pink;
+}
+
+.btn-pink:hover,
+.btn-pink:active {
+  background-color: pink;
+  color: black;
+}
+
+.btn-black{
+  color: black;
+}
+
+.btn-black:hover,
+.btn-black:active {
+  background-color: black;
+  color: white;
+}
+
+.btn-violet{
+  color: violet;
+}
+
+.btn-violet:hover,
+.btn-violet:active {
+  background-color: violet;
+  color: white;
+}
+
+.btn-green{
+  color:green;
+}
+
+.btn-green:hover,
+.btn-green:active {
+  background-color: #00695c;
+  color: white;
+}
+
+
+.btn-purple{
+  color:purple;
+}
+
+.btn-purple:hover,
+.btn-purple:active {
+  background-color: purple;
+  color: white;
+}
+
+.btn-grey{
+  color:grey;
+}
+
+.btn-grey:hover,
+.btn-grey:active {
+  background-color: gray;
+  color: black;
+}
+
+.btn-brown{
+  color: brown;
+}
+
+.btn-brown:hover,
+.btn-brown:active {
+  background-color: brown;
+  color: white;
+}
+
+
+.btn-orange{
+  color:orange;
+}
+
+.btn-orange:hover,
+.btn-orange:active {
+  background-color: orange;
+  color: white;
+}
+
+  .form-control {
+    margin: 1rem 0;
+  }
+  
+  .form-control label,
+  .form-control input {
+      font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+
+  
+  .form-control input{
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 1rem;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline-color: #00695c;
+  }

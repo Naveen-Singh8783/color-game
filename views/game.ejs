@@ -1,0 +1,25 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="game">
+        <h1><%= round %></h1>
+        <h1>Guess any one color:</h1>
+        <form action="/game/<%= round %>" method="POST">
+         <input type="hidden" name="round" value="<%= round %>">
+         <button type="submit" name="red" value="1" class="btn btn-red">red</button>
+         <button type="submit" name="green" value="2" class="btn btn-green">green</button>
+         <button type="submit" name="yellow" value="3" class="btn btn-purple">purple</button>
+         <button type="submit" name="white" value="4" class="btn btn-grey">grey</button>
+         <button type="submit" name="black" value="5" class="btn btn-black">Black</button>
+         <button type="submit" name="blue" value="6" class="btn btn-blue">blue</button>
+         <button type="submit" name="pink" value="7" class="btn btn-pink">pink</button>
+         <button type="submit" name="violet" value="8" class="btn btn-violet">violet</button>
+         <button type="submit" name="brown" value="9" class="btn btn-brown">brown</button>
+         <button type="submit" name="orange" value="10" class="btn btn-orange">orange</button>
+     </form>
+      
+    </div>
+   
+</body>
+</html>
