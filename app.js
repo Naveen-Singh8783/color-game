@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000;
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -48,7 +49,7 @@ mongoose
     'mongodb+srv://Naveen:Naveen123@cluster0-d01o9.mongodb.net/color-game?retryWrites=true&w=majority'
 )
 .then(result =>{
-    app.listen(3000);
+    app.listen(PORT);
 })
 .catch(err => console.log(err));
 
